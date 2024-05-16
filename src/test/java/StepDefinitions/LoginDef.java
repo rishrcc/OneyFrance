@@ -29,7 +29,7 @@ public class LoginDef {
     public void i_am_logged_in_with_and_on_weak_authentication(String username, String password)
     {
         LoginStep.weakAuthenticationNavigateToUrl();
-        LoginStep.closePopUp();
+        //LoginStep.closePopUp();
         LoginStep.weakAuthenticationLogin(username,password);
         DashboardStep.closeMobileDownloadPopUp();
     }
@@ -38,7 +38,7 @@ public class LoginDef {
     public void i_am_logged_in_with_icon_user_on_weak_authentication(String icon)
     {
         LoginStep.weakAuthenticationNavigateToUrl();
-        LoginStep.closePopUp();
+        //LoginStep.closePopUp();
         LoginStep.weakAuthenticationLogin(icon);
         DashboardStep.closeMobileDownloadPopUp();
     }
